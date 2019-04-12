@@ -24,6 +24,13 @@
 		F8E50E9F225EFFF900CCEC9F /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50E9E225EFFF900CCEC9F /* UIKitExtension.swift */; };
 		F8E50EA1225F145300CCEC9F /* MGAppStoreTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50EA0225F145300CCEC9F /* MGAppStoreTool.swift */; };
 		F8E50EA4225F4F7000CCEC9F /* MGRollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50EA3225F4F7000CCEC9F /* MGRollCell.swift */; };
+		F8E50EA6225F642900CCEC9F /* MGBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50EA5225F642800CCEC9F /* MGBaseController.swift */; };
+		F8E50EA9225F685500CCEC9F /* MGGameOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50EA8225F685500CCEC9F /* MGGameOneCell.swift */; };
+		F8E50EAE225F68E800CCEC9F /* MGGameOneCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50EAC225F68E800CCEC9F /* MGGameOneCollectionCell.swift */; };
+		F8E50EAF225F68E800CCEC9F /* MGGameOneCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E50EAD225F68E800CCEC9F /* MGGameOneCollectionCell.xib */; };
+		F8E50EB22260865700CCEC9F /* MGGameTwoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50EB02260865700CCEC9F /* MGGameTwoCollectionCell.swift */; };
+		F8E50EB32260865700CCEC9F /* MGGameTwoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E50EB12260865700CCEC9F /* MGGameTwoCollectionCell.xib */; };
+		F8E50EB52260888F00CCEC9F /* MGGameTwoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E50EB42260888F00CCEC9F /* MGGameTwoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +53,13 @@
 		F8E50E9E225EFFF900CCEC9F /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 		F8E50EA0225F145300CCEC9F /* MGAppStoreTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGAppStoreTool.swift; sourceTree = "<group>"; };
 		F8E50EA3225F4F7000CCEC9F /* MGRollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGRollCell.swift; sourceTree = "<group>"; };
+		F8E50EA5225F642800CCEC9F /* MGBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGBaseController.swift; sourceTree = "<group>"; };
+		F8E50EA8225F685500CCEC9F /* MGGameOneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGGameOneCell.swift; sourceTree = "<group>"; };
+		F8E50EAC225F68E800CCEC9F /* MGGameOneCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGGameOneCollectionCell.swift; sourceTree = "<group>"; };
+		F8E50EAD225F68E800CCEC9F /* MGGameOneCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MGGameOneCollectionCell.xib; sourceTree = "<group>"; };
+		F8E50EB02260865700CCEC9F /* MGGameTwoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGGameTwoCollectionCell.swift; sourceTree = "<group>"; };
+		F8E50EB12260865700CCEC9F /* MGGameTwoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MGGameTwoCollectionCell.xib; sourceTree = "<group>"; };
+		F8E50EB42260888F00CCEC9F /* MGGameTwoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGGameTwoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,7 @@
 			children = (
 				F8E50E71225C98CD00CCEC9F /* MGTabBarController.swift */,
 				F8E50E7E225C99B200CCEC9F /* MGNavigationController.swift */,
+				F8E50EA5225F642800CCEC9F /* MGBaseController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -117,6 +132,7 @@
 		F8E50E80225C9EE000CCEC9F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F8E50EA7225F681100CCEC9F /* GameCell */,
 				F8E50EA2225F4E9600CCEC9F /* TodayCell */,
 				F8E50E83225C9F2100CCEC9F /* TitleView */,
 			);
@@ -154,6 +170,19 @@
 				F8E50EA3225F4F7000CCEC9F /* MGRollCell.swift */,
 			);
 			path = TodayCell;
+			sourceTree = "<group>";
+		};
+		F8E50EA7225F681100CCEC9F /* GameCell */ = {
+			isa = PBXGroup;
+			children = (
+				F8E50EA8225F685500CCEC9F /* MGGameOneCell.swift */,
+				F8E50EAC225F68E800CCEC9F /* MGGameOneCollectionCell.swift */,
+				F8E50EAD225F68E800CCEC9F /* MGGameOneCollectionCell.xib */,
+				F8E50EB42260888F00CCEC9F /* MGGameTwoCell.swift */,
+				F8E50EB02260865700CCEC9F /* MGGameTwoCollectionCell.swift */,
+				F8E50EB12260865700CCEC9F /* MGGameTwoCollectionCell.xib */,
+			);
+			path = GameCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E50EB32260865700CCEC9F /* MGGameTwoCollectionCell.xib in Resources */,
+				F8E50EAF225F68E800CCEC9F /* MGGameOneCollectionCell.xib in Resources */,
 				F8E50E68225C96FC00CCEC9F /* LaunchScreen.storyboard in Resources */,
 				F8E50E65225C96FC00CCEC9F /* Assets.xcassets in Resources */,
 				F8E50E63225C96FB00CCEC9F /* Main.storyboard in Resources */,
@@ -229,17 +260,22 @@
 			files = (
 				F8E50E7B225C995100CCEC9F /* MGUpdateController.swift in Sources */,
 				F8E50E82225C9F1500CCEC9F /* MGLargeTitleView.swift in Sources */,
+				F8E50EB22260865700CCEC9F /* MGGameTwoCollectionCell.swift in Sources */,
 				F8E50EA4225F4F7000CCEC9F /* MGRollCell.swift in Sources */,
 				F8E50E7D225C996300CCEC9F /* MGSearchController.swift in Sources */,
 				F8E50E7F225C99B200CCEC9F /* MGNavigationController.swift in Sources */,
 				F8E50E86225CA08600CCEC9F /* MGConst.swift in Sources */,
+				F8E50EA6225F642900CCEC9F /* MGBaseController.swift in Sources */,
+				F8E50EAE225F68E800CCEC9F /* MGGameOneCollectionCell.swift in Sources */,
 				F8E50EA1225F145300CCEC9F /* MGAppStoreTool.swift in Sources */,
 				F8E50E60225C96FB00CCEC9F /* ViewController.swift in Sources */,
+				F8E50EB52260888F00CCEC9F /* MGGameTwoCell.swift in Sources */,
 				F8E50E9F225EFFF900CCEC9F /* UIKitExtension.swift in Sources */,
 				F8E50E79225C994100CCEC9F /* MGAppController.swift in Sources */,
 				F8E50E5E225C96FB00CCEC9F /* AppDelegate.swift in Sources */,
 				F8E50E72225C98CD00CCEC9F /* MGTabBarController.swift in Sources */,
 				F8E50E77225C992D00CCEC9F /* MGGameController.swift in Sources */,
+				F8E50EA9225F685500CCEC9F /* MGGameOneCell.swift in Sources */,
 				F8E50E75225C991A00CCEC9F /* MGTodayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

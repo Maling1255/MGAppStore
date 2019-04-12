@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGAppController: UIViewController {
+class MGAppController: MGBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

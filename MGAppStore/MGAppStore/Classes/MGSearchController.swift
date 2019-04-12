@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGSearchController: UIViewController {
+class MGSearchController: MGBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGUpdateController: UIViewController {
+class MGUpdateController: MGBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
